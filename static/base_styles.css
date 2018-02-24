@@ -6,3 +6,18 @@
     color: #ffffff;
 }
 
+.bootstrap_rectangle {
+    background-color: #494DA1;
+    height: 40vh;
+}
+
+.bootstrap_white {
+    background-color: #FFFFFF;
+}
+
+.feature_box {
+    background-color: #ffffff;
+    margin: 40px 40px 40px 40px;
+    box-shadow: 10px 10px 100px 4px rgba(0, 0, 0, 0.5);
+}
+
