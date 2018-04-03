@@ -1,25 +1,31 @@
-{% extends "sign_up_base.html" %}
+{% extends "base.html" %}
+{% block background %}
+    class = "bg"
+{% endblock %}
 {% block content %}
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12"></div>
-                 <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                    <form method="POST" class="sign_in_form">
-                        <h3 class="quokka_title">Sign up to start sharing your notes</h3>
-                        <p class="quokka_descrip"> Learning is best done together. Create an account to start
-                        uploading and downloading your class notes.</p>
-                        <div class="form-group">
-                            <input class='input-group form-control' type="text" autocomplete="given-name" placeholder="First Name" id="first_name"/>
-                        </div>
-                        <div class="form-group">
-                            <input class="input-group form-control" type="text" autocomplete="family-name" placeholder="Last Name" id="last_name"/>
-                        </div>
-                        <div class="form-group">
-                            <input class='input-group form-control' type="email" autocomplete="email" placeholder="Email" id="email"/>
-                        </div>
-                        <button class='input-group btn btn-block' type="submit" name="submit_button"><i class="fab fa-telegram-plane"></i> Submit </button>
-                    </form>
-                </div>
+             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                <form method="POST" class="sign_in_form">
+                    <h3 class="quokka_title">Sign up to start sharing your notes</h3>
+                    <p class="quokka_descrip"> Learning is best done together. Create an account to start
+                    uploading and downloading your class notes.</p>
+                    <div class="form-group">
+                        <input class='input-group form-control' type="text" autocomplete="given-name" placeholder="First Name" id="first_name"/>
+                    </div>
+                    <div class="form-group">
+                        <input class="input-group form-control" type="text" autocomplete="family-name" placeholder="Last Name" id="last_name"/>
+                    </div>
+                    <div class="form-group">
+                        <input class='input-group form-control' type="email" autocomplete="email" placeholder="Email" id="email"/>
+                    </div>
+                    <div class="form-group">
+                        <input class='input-group form-control' type="password" autocomplete="password" placeholder="Password" id="password"/>
+                    </div>
+                    <button class='input-group btn btn-block' type="submit" name="submit_button"><i class="fab fa-telegram-plane"></i> Submit </button>
+                </form>
+            </div>
             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12"></div>
         </div>
     </div>

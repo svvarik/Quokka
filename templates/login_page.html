@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block background %}
+    class = "bg"
+{% endblock %}
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12"></div>
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12"></div>
+             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                <form method="POST" class="sign_in_form">
+                    <h3 class="quokka_title">Sign In</h3>
+                    <p class="quokka_descrip"> to your Quokka account</p>
+                    <div class="form-group">
+                        <input class='input-group form-control' type="email" autocomplete="email" placeholder="Email" id="email"/>
+                    </div>
+                    <div class="form-group">
+                        <input class='input-group form-control' type="email" autocomplete="password" placeholder="Password" id="password"/>
+                    </div>
+                    <button class='input-group btn btn-block' type="submit" name="submit_button"> Sign In </button>
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}
