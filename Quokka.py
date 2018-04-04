@@ -7,7 +7,7 @@ from pymongo import MongoClient
 app = Flask(__name__)
 
 
-# file = open("MONGODB_URI.txt", 'r')
+# file = open("MONGODB_URI.key", 'r')
 # MONGODB_URI = file.readline()
 # file.close()
 #
