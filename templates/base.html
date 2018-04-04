@@ -7,13 +7,13 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../static/base_styles.css?q=1280549780">
-    <link rel="stylesheet" href="../static/login_page.css?q=12340920202">
+    {% block required_stylesheets %}{%  endblock %}
     <link rel="stylesheet" href="../static/bootstrap_extend.css?q=123456770">
+    <link rel="stylesheet" href="../static/base_styles.css?q=123456771">
     <title>Quokka Notes</title>
 </head>
 <body {% block background %}{% endblock %}>
-     <nav class="navbar navbar-fixed-top navbar-toggleable-md navbar-light navbar_styling">
+     <nav class="navbar navbar-fixed-top navbar-toggleable-md navbar-light navbar_bg">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>

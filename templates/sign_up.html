@@ -2,12 +2,15 @@
 {% block background %}
     class = "bg"
 {% endblock %}
+{% block required_stylesheets %}
+    <link rel="stylesheet" href="../static/sign_up.css?q=12340920202">
+{% endblock %}
 {% block content %}
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12"></div>
              <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                <form method="POST" class="sign_in_form">
+                <form method="POST" class="sign_up_form">
                     <h3 class="quokka_title">Sign up to start sharing your notes</h3>
                     <p class="quokka_descrip"> Learning is best done together. Create an account to start
                     uploading and downloading your class notes.</p>

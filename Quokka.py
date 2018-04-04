@@ -26,7 +26,7 @@ def landing_page():
 @app.route('/user_registration', methods=['GET', "POST"])
 def sign_up():
     if request.method == "GET":
-        return render_template("sign_up_page.html")
+        return render_template("sign_up.html")
     if request.method == "POST":
         return "HI"
         # First check if this user exists (by email)
@@ -36,7 +36,7 @@ def sign_up():
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == "GET":
-        return render_template("login_page.html")
+        return render_template("login.html")
     if request.method == "POST":
         return "YOU'VE LOGGED IN"
 

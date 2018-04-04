@@ -1,0 +1,38 @@
+/* Styles for sign up page */
+
+.features_row {
+    background-color: #494DA1;
+    height: 45vh;
+}
+
+.jumbotron_bg {
+    background-color: #FFFFFF;
+}
+
+.features_box {
+    background-color: #494DA1;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    -webkit-box-shadow: 0px 0px 70px 0px rgba(0,0,0,0.4);
+}
+
+.feature_text {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20%;
+    font-size: 18px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.sign_up_btn {
+    background-color: #494DA1;
+    -webkit-text-fill-color: #ffffff;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

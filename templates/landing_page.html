@@ -1,34 +1,37 @@
 {% extends "base.html" %}
 {% block background %}
 {% endblock %}
+{% block required_stylesheets %}
+    <link rel="stylesheet" href="../static/landing_page.css?q=123456774">
+{% endblock %}
 {% block content %}
     <div class="row">
-        <div class="col-12 jumbotron jumbotron_skinny bootstrap_white">
-            <h1> Learn together with Quokka</h1>
-            <h3> Upload and download class notes, hand written solutions, and links to videos you found helpful.</h3>
+        <div class="col-12 jumbotron jumbotron_skinny jumbotron_bg">
+            <h1 class="quokka_text"> Learn together with Quokka</h1>
+            <h2 class="quokka_text"> Upload and download class notes, hand written solutions, and links to videos you found helpful.</h2>
         </div>
     </div>
     <div class="row">
-        <div class="col-md-4 col-xs-12 bootstrap_rectangle">
-            <div class="feature_box">
-                <h3 class="feature_text">Review difficult concepts with notes from a different perspective.</h3>
+        <div class="col-md-4 col-xs-12 features_row">
+            <div class="features_box">
+                <h3 class="quokka_text feature_text">Review difficult concepts with notes from a different perspective.</h3>
             </div>
         </div>
-        <div class="col-md-4 col-xs-12 bootstrap_rectangle">
-            <div class="feature_box">
-                <h3 class="feature_text">Upload your homework solutions, and check if they match your classmates.</h3>
+        <div class="col-md-4 col-xs-12 features_row">
+            <div class="features_box">
+                <h3 class="quokka_text feature_text">Upload your homework solutions, and check if they match your classmates.</h3>
             </div>
         </div>
-        <div class="col-md-4 col-xs-12 bootstrap_rectangle">
-            <div class="feature_box">
-                <h3 class="feature_text">Check to see suggested resources: Youtube links, online articles,
+        <div class="col-md-4 col-xs-12 features_row">
+            <div class="features_box">
+                <h3 class="quokka_text feature_text">Check to see suggested resources: Youtube links, online articles,
                     or even podcasts that might help.</h3>
             </div>
         </div>
     </div>
     <div class="row">
-        <div class="col-xs-12 jumbotron jumbotron_skinny bootstrap_white">
-            <h3>
+        <div class="col-xs-12 jumbotron jumbotron_skinny jumbotron_bg">
+            <h3 class="quokka_text">
                 The best thing about Quokka? It’s free, non commercial,
                 and open source. Once you start uploading notes, problems you’ve
                 completed, you can download as well. Sign up to start now.
