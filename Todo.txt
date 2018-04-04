@@ -1,8 +1,47 @@
-# TODO
 
-- Now that I'm done landing page, need to link landing page button with sign up page
+===== TO DO  =====
 
-- Need to create log in page
+Tasks to build site
 
-- Need to set up MongoDB for users, build user system
+=== Front End ===
+
+--- Basic Pages ---
+
+- Landing Page - Done
+
+- Log In Page - Done
+
+- Sign Up Page - Done
+
+- About Page - Not Done
+-------------------
+
+==================
+
+
+=== Back End ===
+
+--- User System ---
+
+- MongoDB database, user collections
+
+- Login System
+
+- Create New Users
+
+- Admin Page
+--------------------
+
+================
+
+
+
+
+==========
+Next Tasks (Only Two at a Time)
+==========
+
+- Need to build system to create new users
+- Reorganize HTML / CSS files with consistent naming conventions and move around CSS classes
+
 
