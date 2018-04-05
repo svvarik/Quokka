@@ -47,3 +47,18 @@ Thumbs.db
 # IntelliJ Files #
 ##################
 .idea
+
+
+# venv #
+########
+pyvenv.cfg
+*.pth
+*.egg
+bin/
+lib/
+include/
+
+
+
+
+

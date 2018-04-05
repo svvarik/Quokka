@@ -1,7 +1,4 @@
 from flask import Flask, render_template, request
-from wtforms import Form, BooleanField, StringField, PasswordField, validators
-from pymongo import MongoClient
-
 
 
 app = Flask(__name__)
